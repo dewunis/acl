@@ -356,6 +356,10 @@
             
         </div>
     </div>
+
+    <div class="text-center mt-5">
+        <a class="btn btn-primary py-3 px-4" href="/project">Voir Plus</a>
+    </div>
 </div>
 <!-- Projects End -->
 
@@ -544,7 +548,7 @@
         </div>
         
         <div class="text-center mt-5">
-            <a class="btn btn-primary py-3 px-4" href="">Voir Plus</a>
+            <a class="btn btn-primary py-3 px-4" href="/service">Voir Plus</a>
         </div>
 
     </div>

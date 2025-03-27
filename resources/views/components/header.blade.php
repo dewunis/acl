@@ -30,7 +30,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-1 px-lg-2">
+        <a href="/" class="navbar-brand d-flex align-items-center px-1 px-lg-2">
             <img src="/img/icon/logo-ACL.png" alt="Icon" style="width: 200px; height: 50px;">
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -38,11 +38,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto px-4">
-                <a href="/" class="nav-item nav-link active">ACCUEIL</a>
-                <a href="/about" class="nav-item nav-link">A PROPOS</a>
-                <a href="/service" class="nav-item nav-link">NOS SERVICES</a>
-                <a href="/project" class="nav-item nav-link">NOS PROJETS</a>
-                <a href="/team" class="nav-item nav-link">NOTRE EQUIPE</a>
+                <a href="/" class="nav-item nav-link {{ Request::is('/') ? 'active' : '' }}">ACCUEIL</a>
+                <a href="/about" class="nav-item nav-link {{ Request::is('about') ? 'active' : '' }}">A PROPOS</a>
+                <a href="/service" class="nav-item nav-link {{ Request::is('service') ? 'active' : '' }}">NOS SERVICES</a>
+                <a href="/project" class="nav-item nav-link {{ Request::is('project') ? 'active' : '' }}">NOS PROJETS</a>
+                <a href="/team" class="nav-item nav-link {{ Request::is('team') ? 'active' : '' }}">NOTRE EQUIPE</a>
+                
 
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PAGES</a>
@@ -54,7 +55,7 @@
                         <!--<a href="404.html" class="dropdown-item">404 Page</a>-->
                     </div>
                 </div>
-                <a href="/contact" class="nav-item nav-link">CONTACT</a>
+                <a href="/contact" class="nav-item nav-link {{ Request::is('contact') ? 'active' : '' }}">CONTACT</a>
             </div>
             {{-- <a href="" class="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block"
                 style="font-weight: bold">SECRETARIAT<i class="fa fa-arrow-right ms-3"></i></a> --}}
