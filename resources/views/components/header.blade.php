@@ -46,11 +46,11 @@
                 
 
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PAGES</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PLUS</a>
                     <div class="dropdown-menu bg-light m-0">
                         {{-- <a href="/reference" class="dropdown-item">REFERENCES</a> --}}
-                        <a href="/actus" class="dropdown-item">ACTUALITES</a>
                         <a href="/offer" class="dropdown-item">OFFRES D'EMPLOI</a>
+                        <a href="/actus" class="dropdown-item">ACTUALITES</a>
                         {{-- <a href="/team" class="dropdown-item">NOTRE EQUIPE</a> --}}
                         <!--<a href="404.html" class="dropdown-item">404 Page</a>-->
                     </div>

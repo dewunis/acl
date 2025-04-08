@@ -30,6 +30,10 @@ Route::get('/actus', function () {
     return view('actus');
 });
 
+Route::get('/actus1', function () {
+    return view('actus1');
+});
+
 Route::get('/offer', function () {
     return view('offer');
 });
