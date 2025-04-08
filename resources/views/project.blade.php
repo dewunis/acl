@@ -47,7 +47,7 @@
  <div class="container-xxl py-5">
     <div class="container">
         <div class="text-center mx-auto" style="max-width: 500px;">
-            <h1 class="display-5 mb-5">Nos Projets</h1>
+            <h1 class="display-5 mb-5">Nos Projets Récents</h1>
         </div>
         <div class="row">
             <div class="col-12 text-center">

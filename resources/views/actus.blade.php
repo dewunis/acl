@@ -16,9 +16,9 @@
 
     <!-- Contenu principal -->
     <main class="main-content">
-        <!-- <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-            <h1 class="display-5 mb-5">Actualités</h1>
-        </div> -->
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h1 class="display-6 mb-5">Nos Dernières Activités</h1>
+        </div>
         
         <div class="news-articles">
             <!-- Article 1 -->

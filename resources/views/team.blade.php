@@ -21,7 +21,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="fs-5 fw-bold text-primary border-bottom d-inline-block">Notre Équipe</p>
+                <!-- <p class="fs-5 fw-bold text-primary border-bottom d-inline-block">Notre Équipe</p> -->
                 <h1 class="display-5 mb-5">Des Femmes et Hommes D'Expériences</h1>
             </div>
             <div class="row g-4">

@@ -4,7 +4,7 @@
         <div class="container py-5">
             <div class="row g-10">
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">CONTACT US</h4>
+                    <h4 class="text-white mb-4">CONTACTEZ-NOUS</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>ACL Togo (Zone portuaire), ACL Benin (Cotonou Aibatin 1)</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+228 90 04 54 94</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@africaconsultingleaders.com</p>
