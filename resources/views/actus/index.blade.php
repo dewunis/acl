@@ -32,7 +32,7 @@
                     <div class="article-date">15 Mars 2023</div>
                     <h3 class="article-title">Port Autonome de Lomé : La dématérialisation prend enfin forme</h3>
                     <p class="article-excerpt">Nous sommes fiers d'annoncer le lancement de notre nouveau projet de développement durable dans la région maritime du Togo.</p>
-                    <a href="/actus1" class="read-more">Lire la suite →</a>
+                    <a href="/actus/1" class="read-more">Lire la suite →</a>
                 </div>
             </article>
             
@@ -47,7 +47,7 @@
                     <div class="article-date">28 Février 2023</div>
                     <h3 class="article-title">Partenariat stratégique avec une entreprise européenne</h3>
                     <p class="article-excerpt">Africa Consulting Leaders a signé un partenariat stratégique avec une importante entreprise européenne pour développer...</p>
-                    <a href="/actus1" class="read-more">Lire la suite →</a>
+                    <a href="/actus/1" class="read-more">Lire la suite →</a>
                 </div>
             </article>
             
@@ -62,7 +62,7 @@
                     <div class="article-date">10 Janvier 2023</div>
                     <h3 class="article-title">Atelier de formation pour les entrepreneurs locaux</h3>
                     <p class="article-excerpt">Notre dernier atelier de formation pour les entrepreneurs locaux a rencontré un vif succès avec plus de 150 participants.</p>
-                    <a href="actus1" class="read-more">Lire la suite →</a>
+                    <a href="/actus/1" class="read-more">Lire la suite →</a>
                 </div>
             </article>
             
@@ -77,7 +77,7 @@
                     <div class="article-date">15 Décembre 2022</div>
                     <h3 class="article-title">Africa Consulting Leaders célèbre ses 5 ans</h3>
                     <p class="article-excerpt">Nous avons célébré notre 5ème anniversaire avec une réception qui a rassemblé nos partenaires, clients et collaborateurs.</p>
-                    <a href="actus1" class="read-more">Lire la suite →</a>
+                    <a href="/actus/1" class="read-more">Lire la suite →</a>
                 </div>
             </article>
             
@@ -92,7 +92,7 @@
                     <div class="article-date">20 Novembre 2022</div>
                     <h3 class="article-title">Publication de notre rapport annuel 2022</h3>
                     <p class="article-excerpt">Découvrez notre rapport annuel 2022 avec les résultats de nos projets et nos perspectives pour l'année à venir.</p>
-                    <a href="actus1" class="read-more">Lire la suite →</a>
+                    <a href="/actus/1" class="read-more">Lire la suite →</a>
                 </div>
             </article>
             
@@ -107,7 +107,7 @@
                     <div class="article-date">5 Octobre 2022</div>
                     <h3 class="article-title">Conférence sur l'innovation en Afrique de l'Ouest</h3>
                     <p class="article-excerpt">Retour sur notre participation à la conférence régionale sur l'innovation et le développement économique en Afrique de l'Ouest.</p>
-                    <a href="actus1" class="read-more">Lire la suite →</a>
+                    <a href="/actus/1" class="read-more">Lire la suite →</a>
                 </div>
             </article>
         </div>

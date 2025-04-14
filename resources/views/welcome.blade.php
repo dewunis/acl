@@ -132,7 +132,7 @@
                     <img class="img-fluid rounded" data-wow-delay="0.1s" src="img/image/dg-photo.jpg"
                         style="height: 430px;">
                 </div>
-                <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-5 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
                     <h1 class="display-1 text-primary mb-0">+30</h1>
                     <h4 class="text-primary mb-4 border-bottom d-inline-block">Années d'Expériences</h4>
                     <h2 class="display-8 mb-4">NOUS CUMULONS PLUS DE 30 ANS D'EXPÉRIENCES</h2>
@@ -142,12 +142,12 @@
                         mobile money.</p>
                     <a class="btn btn-primary py-3 px-4" href="/project">Nos Projets</a>
                 </div>
-                <div class="col-lg-3 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row g-5">
                         <div class="col-12 col-sm-6 col-lg-12">
                             <div class="border-start ps-4">
                                 <i class="fa fa-award fa-3x text-primary mb-3"></i>
-                                <h4 class="mb-3">+ de 100 Projets</h4>
+                                <h4 class="mb-3">+ DE 100 PROJETS</h4>
                                 <span>Nous avons réalisé avec succès plus de 100 projets innovants, apportant des
                                     solutions digitales.</span>
                             </div>
@@ -155,9 +155,10 @@
                         <div class="col-12 col-sm-6 col-lg-12">
                             <div class="border-start ps-4">
                                 <i class="fa fa-users fa-3x text-primary mb-3"></i>
-                                <h4 class="mb-3">Concessionnaire de l'AGPAOC</h4>
-                                <span>Nos équipes d’experts nationaux et internationaux sont mobilisables en fonction de
-                                    vos besoins.</span>
+                                <h4 class="mb-3">CAPACITY BUILDING</h4>
+                                <h6 class="text-primary mb-4 border-bottom d-inline-block">Concession Centre Formation Professionnelle : 
+                                    <br>AGPAOC Septembre 2018</h6>
+                                <span>Co-Fondateur de l'Institut des Métiers de la Mer (I2M) - Décembre 2015 - Université de Lomé et Port de Lomé.</span>
                             </div>
                         </div>
                     </div>
@@ -166,6 +167,52 @@
         </div>
     </div>
     <!-- About End -->
+
+    <!-- Animation de fond logo -->
+    <div class="digital-wall" data-parallax="scroll"
+    data-image-src="img/image/port-de-lome.jpg">
+        <div class="logos-container">
+            <!-- Logo Port (haut gauche) -->
+            <div class="logo-wrapper port">
+                <img src="img/logo/logo-port-lome.jpg" alt="Port" class="logo">
+            </div>
+            
+            <!-- Logo Université de Lomé (haut droit) -->
+            <div class="logo-wrapper ul">
+                <img src="img/logo/utl-lome.jpg" alt="Université de Lomé" class="logo">
+            </div>
+            
+            <!-- Logo I2M (centre) -->
+            <div class="logo-wrapper i2m">
+                <img src="img/logo/logo-i2m.jpg" alt="I2M" class="logo">
+            </div>
+            
+            <!-- Logo ACL (bas centre) -->
+            <div class="logo-wrapper acl">
+                <img src="img/icon/logo-ACL.png" alt="ACL" class="logo">
+            </div>
+            
+            <!-- Lignes de connexion -->
+            <svg class="connection-lines" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <!-- Ligne Port vers I2M -->
+                <path class="line port-i2m" d="M10,20 Q50,30 50,50" />
+                
+                <!-- Ligne UL vers I2M -->
+                <path class="line ul-i2m" d="M90,20 Q50,30 50,50" />
+                
+                <!-- Ligne I2M vers ACL -->
+                <path class="line i2m-acl" d="M50,50 Q50,70 50,80" />
+
+                <defs>
+                    <linearGradient id="line-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#00f2ff" />
+                        <stop offset="100%" stop-color="#0066ff" />
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+    </div>
+    <!-- Animation de fond logo End -->
 
     <!-- Facts Start -->
     <div class="container-fluid facts my-5 py-5" data-parallax="scroll"

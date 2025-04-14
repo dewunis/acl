@@ -26,12 +26,12 @@ Route::get('/reference', function () {
     return view('reference');
 });
 
-Route::get('/actus', function () {
-    return view('actus');
-});
+Route::get('/actus/{id}', function ($id) {
+    return view("actus.$id");
+})->where('id', '[0-9]+');
 
-Route::get('/actus1', function () {
-    return view('actus1');
+Route::get('/actus', function () {
+    return view('actus.index');
 });
 
 Route::get('/offer', function () {
