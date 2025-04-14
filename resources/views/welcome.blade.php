@@ -158,6 +158,7 @@
                                 <h4 class="mb-3">CAPACITY BUILDING</h4>
                                 <h6 class="text-primary mb-4 border-bottom d-inline-block">Concession Centre Formation Professionnelle : 
                                     <br>AGPAOC Septembre 2018</h6>
+                                    <br>
                                 <span>Co-Fondateur de l'Institut des Métiers de la Mer (I2M) - Décembre 2015 - Université de Lomé et Port de Lomé.</span>
                             </div>
                         </div>
@@ -488,8 +489,10 @@
                                 </svg>
                             </div>
                             <h4 class="mb-3">Accompagnement</h4>
-                            <p class="mb-4">Nous sommes à vos côtés à chaque étape de votre projet. Conseil, stratégie, pilotage : nous transformons vos idées en résultats concrets.</p>
-                            <a class="btn btn-sm" href="/service/1"><i class="fa fa-plus text-primary me-2"></i>Read More</a>
+                            <p class="mb-4">
+                                Nous sommes à vos côtés à chaque étape de votre projet. Conseil, stratégie, pilotage : nous transformons vos idées en résultats concrets.
+                            </p>
+                            <a class="btn btn-sm" href="/service/1"><i class="fa fa-plus text-primary me-2"></i>Voir Plus</a>
                         </div>
                     </div>
                 </div>
@@ -509,8 +512,10 @@
                                 </svg>
                             </div>
                             <h4 class="mb-3">Digitalisation</h4>
-                            <p class="mb-4">Boostez votre performance avec des outils digitaux puissants et innovants. Gagnez en efficacité, fluidifiez vos opérations et optimisez vos processus.</p>
-                            <a class="btn btn-sm" href="/service/2"><i class="fa fa-plus text-primary me-2"></i>Read More</a>
+                            <p class="mb-4">
+                                Boostez votre performance avec des outils digitaux puissants et innovants. Gagnez en efficacité, fluidifiez vos opérations et optimisez vos processus.
+                            </p>
+                            <a class="btn btn-sm" href="/service/2"><i class="fa fa-plus text-primary me-2"></i>Voir Plus</a>
                         </div>
                     </div>
                 </div>
@@ -531,8 +536,10 @@
                                 </svg>
                             </div>
                             <h4 class="mb-3">Service Après Vente</h4>
-                            <p class="mb-4">Notre engagement ne s’arrête pas après le déploiement. Nous restons disponibles pour assurer la continuité, la maintenance et le bon fonctionnement de vos solutions.</p>
-                            <a class="btn btn-sm" href="/service/3"><i class="fa fa-plus text-primary me-2"></i>Read More</a>
+                            <p class="mb-4">
+                                Notre engagement ne s’arrête pas après le déploiement. Nous restons disponibles pour assurer la continuité, la maintenance et le bon fonctionnement de vos solutions.
+                            </p>
+                            <a class="btn btn-sm" href="/service/3"><i class="fa fa-plus text-primary me-2"></i>Voir Plus</a>
                         </div>
                     </div>
                 </div>
