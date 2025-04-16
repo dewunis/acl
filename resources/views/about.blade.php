@@ -95,7 +95,7 @@
                     <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="owl-carousel testimonial-carousel">
                             <div class="testimonial-item">
-                                <img class="img-fluid rounded mb-3" src="img/image/patrice.jpg" alt="">
+                                <img class="img-fluid rounded mb-3" src="/img/image/patrice.jpeg" alt="">
                                 <p class="fs-5">
                                     Nous avons bénéficié d’un accompagnement stratégique de grande qualité dans le cadre des études sur les Sources Alternatives de Financement (SAF) pour nos projets d’intégration régionale. Une expertise précieuse, à la hauteur des enjeux. 
                                 </p>
@@ -103,7 +103,7 @@
                                 <span>Secrétaire Général du CE – siège Abidjan</span>
                             </div>
                             <div class="testimonial-item">
-                                <img class="img-fluid rounded mb-3" src="img/image/adegnon.jpg" alt="">
+                                <img class="img-fluid rounded mb-3" src="/img/image/adegnon.jpeg" alt="">
                                 <p class="fs-5">
                                     Leur appui a été déterminant dans le développement de notre Port, notamment à travers la mise en œuvre de la plateforme de services portuaires (PSP). Un partenariat efficace et orienté résultats.
                                 </p>
