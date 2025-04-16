@@ -85,22 +85,30 @@
                     <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
                         <p class="fs-5 fw-bold text-primary border-bottom d-inline-block">Témoignage</p>
                         <h1 class="display-5 mb-5">Ce Que Nos Clients Disent De Nous!</h1>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit sed stet lorem sit clita duo justo.</p>
-                        <a class="btn btn-primary py-3 px-4" href="">Voir Plus</a>
+                        <p class="mb-4">
+                            Ils ont testé, ils témoignent !
+
+                            Nos clients partagent leur expérience et les résultats concrets obtenus grâce à notre accompagnement. Leur satisfaction est notre plus grande fierté.
+                        </p>
+                        {{-- <a class="btn btn-primary py-3 px-4" href="">Voir Plus</a> --}}
                     </div>
                     <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="owl-carousel testimonial-carousel">
                             <div class="testimonial-item">
                                 <img class="img-fluid rounded mb-3" src="img/image/client-1.jpg" alt="">
-                                <p class="fs-5">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
-                                <h4>Afi LAWSON</h4>
-                                <span>Transitère</span>
+                                <p class="fs-5">
+                                    Nous avons bénéficié d’un accompagnement stratégique de grande qualité dans le cadre des études sur les Sources Alternatives de Financement (SAF) pour nos projets d’intégration régionale. Une expertise précieuse, à la hauteur des enjeux. 
+                                </p>
+                                <h4>Patrice KOUAME</h4>
+                                <span>Secrétaire Général du CE – siège Abidjan</span>
                             </div>
                             <div class="testimonial-item">
                                 <img class="img-fluid rounded mb-3" src="img/image/client-2.jpg" alt="">
-                                <p class="fs-5">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
-                                <h4>Jean-Marie DUPONT</h4>
-                                <span>Informaticien Réseau</span>
+                                <p class="fs-5">
+                                    Leur appui a été déterminant dans le développement de notre Port, notamment à travers la mise en œuvre de la plateforme de services portuaires (PSP). Un partenariat efficace et orienté résultats.
+                                </p>
+                                <h4>Fogan ADEGNON</h4>
+                                <span>Directeur Général du Port Autonome de Lomé</span>
                             </div>
                         </div>
                     </div>

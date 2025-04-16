@@ -19,7 +19,7 @@
 
   <div class="container-xxl py-5">
       <div class="text-start mb-4">
-          <a href="/service" class="btn btn-outline-primary">Go Back</a>
+          <a href="/service" class="btn btn-outline-primary">Retour</a>
       </div>
 
       <div class="row justify-content-start align-items-center g-5">
@@ -35,17 +35,15 @@
           <div class="col-lg-6 col-md-8 text-center">
               <h4 class="mb-3">Digitalisation</h4>
               <p class="text-muted">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia libero autem tempora, corporis quas ut
-                  doloribus nam vero optio quo aspernatur cupiditate nulla dolor harum atque quidem. Mollitia, quis rerum.
-                  Culpa, recusandae? Ut reiciendis facere quo, labore voluptate vel quisquam provident eligendi alias
-                  possimus nihil. Totam, corporis? Obcaecati aliquam quaerat id cumque praesentium esse voluptatibus,
-                  quibusdam, explicabo tempora quam asperiores.
-                  Exercitationem voluptatibus ea molestias illo dolore suscipit, amet quidem, est facere quis assumenda
-                  eius consequuntur, quo dolor corporis atque maiores! Eaque quo harum corporis architecto quis nostrum,
-                  culpa ipsa maiores.
-                  Repudiandae blanditiis dignissimos dolore. Magni quod ex libero reprehenderit iusto architecto
-                  voluptates ea neque illum consectetur, qui corrupti voluptatum debitis saepe unde laborum necessitatibus
-                  dignissimos earum cumque! Voluptates, dignissimos deleniti?
+                Boostez votre performance avec des outils digitaux puissants et innovants. La digitalisation n’est plus une option, c’est un levier stratégique incontournable pour accélérer votre croissance.
+                <br><br>
+                Nous vous accompagnons dans la transformation numérique de votre organisation, en vous proposant des solutions sur mesure pour automatiser vos tâches, fluidifier vos processus métiers et renforcer la collaboration entre vos équipes.
+                <br><br>
+                Grâce à une approche centrée sur vos besoins, nous mettons en œuvre des outils digitaux performants : plateformes collaboratives, logiciels de gestion, applications métier, systèmes de suivi en temps réel, etc.
+                <br><br>
+                L’objectif : simplifier votre quotidien, améliorer votre efficacité opérationnelle et vous permettre de vous concentrer sur ce qui compte vraiment — votre cœur de métier.
+                <br><br>
+                Ensemble, faisons de la technologie un moteur de performance et d’innovation pour votre entreprise.
               </p>
           </div>
       </div>

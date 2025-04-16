@@ -19,7 +19,7 @@
 
   <div class="container-xxl py-5">
       <div class="text-start mb-4">
-          <a href="/service" class="btn btn-outline-primary">Go Back</a>
+          <a href="/service" class="btn btn-outline-primary">Retour</a>
       </div>  
 
       <div class="row justify-content-start align-items-center g-5">
@@ -35,17 +35,11 @@
           <div class="col-lg-6 col-md-8 text-center">
               <h4 class="mb-3">Centre de Support</h4>
               <p class="text-muted">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia libero autem tempora, corporis quas ut
-                  doloribus nam vero optio quo aspernatur cupiditate nulla dolor harum atque quidem. Mollitia, quis rerum.
-                  Culpa, recusandae? Ut reiciendis facere quo, labore voluptate vel quisquam provident eligendi alias
-                  possimus nihil. Totam, corporis? Obcaecati aliquam quaerat id cumque praesentium esse voluptatibus,
-                  quibusdam, explicabo tempora quam asperiores.
-                  Exercitationem voluptatibus ea molestias illo dolore suscipit, amet quidem, est facere quis assumenda
-                  eius consequuntur, quo dolor corporis atque maiores! Eaque quo harum corporis architecto quis nostrum,
-                  culpa ipsa maiores.
-                  Repudiandae blanditiis dignissimos dolore. Magni quod ex libero reprehenderit iusto architecto
-                  voluptates ea neque illum consectetur, qui corrupti voluptatum debitis saepe unde laborum necessitatibus
-                  dignissimos earum cumque! Voluptates, dignissimos deleniti?
+                Notre Centre de Support est conçu pour répondre efficacement à toutes vos préoccupations techniques et fonctionnelles. Que vous rencontriez un problème, ayez une question ou besoin d’un accompagnement spécifique, notre équipe est disponible pour vous aider rapidement.
+                <br><br>
+                Grâce à des outils modernes et un système de gestion des tickets performant, nous assurons un suivi précis de chaque demande. Notre priorité est de vous offrir une assistance claire, réactive et personnalisée, afin de garantir la satisfaction de vos utilisateurs et la continuité de vos services.
+                <br><br>
+                Disponibilité, écoute et expertise sont les piliers de notre support. En choisissant notre Centre de Support, vous optez pour la tranquillité d’esprit et un accompagnement fiable, à chaque étape de votre utilisation de nos solutions.
               </p>
           </div>
       </div>

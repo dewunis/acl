@@ -19,7 +19,7 @@
 
     <div class="container-xxl py-5">
         <div class="text-start mb-4">
-            <a href="/service" class="btn btn-outline-primary">Go Back</a>
+            <a href="/service" class="btn btn-outline-primary">Retour</a>
         </div>  
 
         <div class="row justify-content-start align-items-center g-5">
@@ -35,17 +35,13 @@
             <div class="col-lg-6 col-md-8 text-center">
                 <h4 class="mb-3">Accompagnement</h4>
                 <p class="text-muted">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia libero autem tempora, corporis quas ut
-                    doloribus nam vero optio quo aspernatur cupiditate nulla dolor harum atque quidem. Mollitia, quis rerum.
-                    Culpa, recusandae? Ut reiciendis facere quo, labore voluptate vel quisquam provident eligendi alias
-                    possimus nihil. Totam, corporis? Obcaecati aliquam quaerat id cumque praesentium esse voluptatibus,
-                    quibusdam, explicabo tempora quam asperiores.
-                    Exercitationem voluptatibus ea molestias illo dolore suscipit, amet quidem, est facere quis assumenda
-                    eius consequuntur, quo dolor corporis atque maiores! Eaque quo harum corporis architecto quis nostrum,
-                    culpa ipsa maiores.
-                    Repudiandae blanditiis dignissimos dolore. Magni quod ex libero reprehenderit iusto architecto
-                    voluptates ea neque illum consectetur, qui corrupti voluptatum debitis saepe unde laborum necessitatibus
-                    dignissimos earum cumque! Voluptates, dignissimos deleniti?
+                    Nous sommes à vos côtés à chaque étape de votre projet. Grâce à notre expertise en conseil, en stratégie et en pilotage, nous vous aidons à concrétiser vos idées les plus ambitieuses. 
+                    <br><br>
+                    Que vous soyez une startup en phase de lancement, une PME en croissance ou une grande entreprise en quête d'innovation, nous adaptons notre accompagnement à vos besoins spécifiques. Notre approche repose sur l’écoute, l’analyse et l’action, afin de vous proposer des solutions sur mesure et efficaces.
+                    <br><br>
+                    Nous intervenons dès la phase d’idéation, en vous apportant une vision claire et structurée, jusqu’à la mise en œuvre opérationnelle de votre projet. Notre objectif : générer de la valeur durable et mesurable, tout en vous permettant de rester maître de vos décisions.
+                    <br><br>
+                    Ensemble, transformons vos projets en réussites concrètes.
                 </p>
             </div>
         </div>

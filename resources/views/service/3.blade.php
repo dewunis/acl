@@ -19,7 +19,7 @@
 
   <div class="container-xxl py-5">
       <div class="text-start mb-4">
-          <a href="/service" class="btn btn-outline-primary">Go Back</a>
+          <a href="/service" class="btn btn-outline-primary">Retour</a>
       </div>  
 
       <div class="row justify-content-start align-items-center g-5">
@@ -35,17 +35,15 @@
           <div class="col-lg-6 col-md-8 text-center">
               <h4 class="mb-3">Service Après Vente</h4>
               <p class="text-muted">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia libero autem tempora, corporis quas ut
-                  doloribus nam vero optio quo aspernatur cupiditate nulla dolor harum atque quidem. Mollitia, quis rerum.
-                  Culpa, recusandae? Ut reiciendis facere quo, labore voluptate vel quisquam provident eligendi alias
-                  possimus nihil. Totam, corporis? Obcaecati aliquam quaerat id cumque praesentium esse voluptatibus,
-                  quibusdam, explicabo tempora quam asperiores.
-                  Exercitationem voluptatibus ea molestias illo dolore suscipit, amet quidem, est facere quis assumenda
-                  eius consequuntur, quo dolor corporis atque maiores! Eaque quo harum corporis architecto quis nostrum,
-                  culpa ipsa maiores.
-                  Repudiandae blanditiis dignissimos dolore. Magni quod ex libero reprehenderit iusto architecto
-                  voluptates ea neque illum consectetur, qui corrupti voluptatum debitis saepe unde laborum necessitatibus
-                  dignissimos earum cumque! Voluptates, dignissimos deleniti?
+                Notre mission ne s’arrête pas à la livraison. Nous croyons fermement que la qualité d’un service se mesure dans la durée, c’est pourquoi nous assurons un suivi rigoureux après le déploiement de vos solutions.
+                <br><br>
+                Que ce soit pour la maintenance, les mises à jour, l’assistance technique ou la résolution rapide des éventuels dysfonctionnements, notre équipe reste mobilisée pour garantir la continuité de vos activités.
+                <br><br>
+                Grâce à un service après-vente réactif, à l’écoute et structuré, nous veillons à maintenir vos systèmes à un niveau de performance optimal. 
+                <br><br>
+                Vous bénéficiez ainsi d’un accompagnement de proximité, d’un support technique fiable et de solutions durables adaptées à l’évolution de vos besoins.
+                <br><br>
+                Avec nous, vous avancez en toute sérénité, en sachant que vous pouvez compter sur un partenaire engagé, même bien après la mise en service.
               </p>
           </div>
       </div>

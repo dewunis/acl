@@ -19,7 +19,7 @@
 
   <div class="container-xxl py-5">
       <div class="text-start mb-4">
-          <a href="/service" class="btn btn-outline-primary">Go Back</a>
+          <a href="/service" class="btn btn-outline-primary">Retour</a>
       </div>  
 
       <div class="row justify-content-start align-items-center g-5">
@@ -35,17 +35,11 @@
           <div class="col-lg-6 col-md-8 text-center">
               <h4 class="mb-3">Services de Paiement</h4>
               <p class="text-muted">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia libero autem tempora, corporis quas ut
-                  doloribus nam vero optio quo aspernatur cupiditate nulla dolor harum atque quidem. Mollitia, quis rerum.
-                  Culpa, recusandae? Ut reiciendis facere quo, labore voluptate vel quisquam provident eligendi alias
-                  possimus nihil. Totam, corporis? Obcaecati aliquam quaerat id cumque praesentium esse voluptatibus,
-                  quibusdam, explicabo tempora quam asperiores.
-                  Exercitationem voluptatibus ea molestias illo dolore suscipit, amet quidem, est facere quis assumenda
-                  eius consequuntur, quo dolor corporis atque maiores! Eaque quo harum corporis architecto quis nostrum,
-                  culpa ipsa maiores.
-                  Repudiandae blanditiis dignissimos dolore. Magni quod ex libero reprehenderit iusto architecto
-                  voluptates ea neque illum consectetur, qui corrupti voluptatum debitis saepe unde laborum necessitatibus
-                  dignissimos earum cumque! Voluptates, dignissimos deleniti?
+                Nos services de paiement sont conçus pour vous offrir une solution rapide, fiable et sécurisée pour toutes vos transactions en ligne. Que vous soyez une entreprise ou un particulier, nous mettons à votre disposition des options de paiement diversifiées, adaptées à vos besoins.
+                <br><br>
+                Nous garantissons une expérience de paiement fluide, avec une intégration facile dans vos systèmes existants. Grâce à nos partenariats avec des plateformes de paiement reconnues, nous vous offrons des solutions qui respectent les plus hauts standards de sécurité et de conformité.
+                <br><br>
+                Que ce soit pour des paiements récurrents, des transactions ponctuelles ou des intégrations personnalisées, nos experts sont là pour vous accompagner et optimiser votre expérience de paiement.
               </p>
           </div>
       </div>
