@@ -5,35 +5,49 @@
             <div class="row g-10">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">CONTACTEZ-NOUS</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>ACL Togo (Zone portuaire), ACL Benin (Cotonou Aibatin 1)</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+228 90 04 54 94</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@africaconsultingleaders.com</p>
-                    <div class="d-flex pt-2">
+
+                    <div class="mb-3">
+                        <h6 class="text-white fw-bold mb-2">ACL Togo</h6>
+                        <p class="mb-1"><i class="fa fa-map-marker-alt me-2"></i>Zone portuaire, Lomé</p>
+                        <p class="mb-0"><i class="fa fa-phone-alt me-2"></i>+228 90 04 54 94</p>
+                    </div>
+
+                    <div>
+                        <h6 class="text-white fw-bold mb-2">ACL Bénin</h6>
+                        <p class="mb-1"><i class="fa fa-map-marker-alt me-2"></i>Cotonou, Aibatin 1</p>
+                        <p class="mb-0"><i class="fa fa-phone-alt me-2"></i>+229 XX XX XX XX</p> <!-- Ajoute le bon numéro ici -->
+                    </div>
+
+                    <div class="d-flex pt-3">
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://x.com/"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
+
                 <div class="col-lg-2 col-md-6">
-                    <h4 class="text-white mb-4">A PROPOS</h4>
-                    <a class="btn btn-link" href="">Nos Equipes</a>
-                    <a class="btn btn-link" href="">Nos Services</a>
-                    <a class="btn btn-link" href="">Nos Projets</a>
+                    <h4 class="text-white mb-4">À PROPOS</h4>
+                    <a class="btn btn-link" href="#">Nos Équipes</a>
+                    <a class="btn btn-link" href="#">Nos Services</a>
+                    <a class="btn btn-link" href="#">Nos Projets</a>
                 </div>
+
                 <div class="col-lg-2 col-md-6">
                     <h4 class="text-white mb-4">SUPPORT</h4>
-                    <a class="btn btn-link" href="">Vidéothèque</a>
-                    <a class="btn btn-link" href="">Photothèque</a>
+                    <a class="btn btn-link" href="#">Vidéothèque</a>
+                    <a class="btn btn-link" href="#">Photothèque</a>
                 </div>
+
                 <div class="col-lg-2 col-md-6">
                     <h4 class="text-white mb-4">LIENS RAPIDES</h4>
-                    <a class="btn btn-link" href="">Nos Actualités</a>
-                    <a class="btn btn-link" href="">Offres d'emploi</a>
+                    <a class="btn btn-link" href="#">Nos Actualités</a>
+                    <a class="btn btn-link" href="#">Offres d'emploi</a>
                 </div>
+
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">NEWSLETTER</h4>
-                    <p>S'abonner pour recevoir des mises à jour sur les nouvelles et les événements.</p>
+                    <p>S’abonner pour recevoir des mises à jour sur nos actualités et événements.</p>
                     <div class="position-relative w-100">
                         <input class="form-control bg-light border-light w-100 py-3 ps-4 pe-5" type="text" placeholder="Ton email">
                         <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">S'abonner</button>
@@ -44,17 +58,15 @@
     </div>
     <!-- Footer End -->
 
-
     <!-- Copyright Start -->
     <div class="container-fluid copyright py-4">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; Copyright <a class="border-bottom" href="#">Africa Consulting Leaders</a>, All Right Reserved.
+                    &copy; Copyright <a class="border-bottom" href="#">Africa Consulting Leaders</a>, Tous droits réservés.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    Designed By <a class="border-bottom" href="https://htmlcodex.com">FLEM Agence</a> Distributed By <a href="https://themewagon.com">FLEM Agence</a>
+                    Designed By <a class="border-bottom" href="https://htmlcodex.com">FLEM Agence</a> | Distributed By <a href="https://themewagon.com">FLEM Agence</a>
                 </div>
             </div>
         </div>

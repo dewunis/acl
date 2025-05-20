@@ -84,12 +84,12 @@
                 <div class="portfolio-inner rounded">
                     <img class="img-fluid" src="/img/projects/nsc001.jpeg" alt="">
                     <div class="portfolio-text">
-                        <h4 class="text-white mb-4">Formation CFP</h4>
+                        <h4 class="text-white mb-4">Formation(s) CFP</h4>
                         <div class="d-flex">
                             <a class="btn btn-lg-square rounded-circle mx-2 video-btn" 
                                data-bs-toggle="modal" 
                                data-bs-target="#videoModal"
-                               data-title="NSC Nigéria"
+                               data-title="Formation(s) CFP"
                                data-video="https://gorgeous-crisp-7e7328.netlify.app/formation%20cfp%20acl01.mp4">
                                 <i class="fa fa-eye"></i>
                             </a>

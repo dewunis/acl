@@ -23,7 +23,7 @@
                     <img class="img-fluid rounded" data-wow-delay="0.1s" src="img/image/dg-photo.jpg" style="height: 430px;">
                 </div>
                 <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
-                    <h1 class="display-1 text-primary mb-0">+30</h1>
+                    <h1 class="display-1 text-primary mb-0">+40</h1>
                     <h4 class="text-primary mb-4 border-bottom d-inline-block">Année d'Expérience</h4>
                     <h2 class="display-8 mb-4">NOUS CUMULONS PLUS DE 30 ANS D'EXPÉRIENCE</h2>
                     <p class="mb-4">Africa Consulting Leaders (ACL) fournit aux ports et aux acteurs de la chaine logistique de transport des solutions digitales des platefomes métiers en environnement web associés à des outils FINTEC pour des services de paiement en ligne via des canaux de banque et mobile money.</p>

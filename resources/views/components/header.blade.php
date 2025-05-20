@@ -3,10 +3,10 @@
     <div class="container-fluid bg-dark text-light px-0 py-2">
         <div class="row gx-0 d-none d-lg-flex">
             <div class="col-lg-7 px-5 text-start">
-                <div class="h-100 d-inline-flex align-items-center me-4">
+                {{-- <div class="h-100 d-inline-flex align-items-center me-4">
                     <span class="fa fa-phone-alt me-2"></span>
                     <span>+228 90 04 54 94</span>
-                </div>
+                </div> --}}
                 <div class="h-100 d-inline-flex align-items-center">
                     <span class="far fa-envelope me-2"></span>
                     <span>contact@africaconsultingleaders.com</span>
@@ -31,7 +31,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
         <a href="/" class="navbar-brand d-flex align-items-center px-1 px-lg-2">
-            <img src="/img/icon/logo-ACL.png" alt="Icon" style="width: 200px; height: 50px;">
+            <img src="/img/logo/logo.png" alt="Icon" style="width: 60px; height: 60px;objet-fit: cover;margin-left: 20px">
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
