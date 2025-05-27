@@ -42,7 +42,7 @@
                 <a href="/about" class="nav-item nav-link {{ Request::is('about') ? 'active' : '' }}">A PROPOS</a>
                 <a href="/service" class="nav-item nav-link {{ Request::is('service') ? 'active' : '' }}">NOS SERVICES</a>
                 <a href="/project" class="nav-item nav-link {{ Request::is('project') ? 'active' : '' }}">NOS PROJETS</a>
-                <a href="/team" class="nav-item nav-link {{ Request::is('team') ? 'active' : '' }}">NOTRE EQUIPE</a>
+                {{-- <a href="/team" class="nav-item nav-link {{ Request::is('team') ? 'active' : '' }}">NOTRE EQUIPE</a> --}}
                 
 
                 <div class="nav-item dropdown">

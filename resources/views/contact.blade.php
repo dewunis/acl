@@ -24,11 +24,28 @@
                     <p class="fs-5 fw-bold text-primary">Contactez-nous</p>
                     <h1 class="display-5 mb-4">Nous sommes là pour répondre à vos questions</h1>
                     <p class="mb-4">N'hésitez pas à nous contacter pour toute question ou demande d'information. Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.</p>
-                    <ul class="list-unstyled">
-                        <li class="mb-3"><i class="fa fa-map-marker-alt text-primary me-3"></i>ACL Togo (Zone portuaire), ACL Benin (Cotonou Aibatin 1)</li>
-                        <li class="mb-3"><i class="fa fa-phone-alt text-primary me-3"></i>+228 90 04 54 94</li>
-                        <li><i class="fa fa-envelope text-primary me-3"></i>contact@africaconsultingleaders.com</li>
-                    </ul>
+                    
+                    <div class="row">
+                        <!-- Contact Togo -->
+                        <div class="col-md-6 mb-4">
+                            <h6 class="fw-bold">📍 ACL Togo</h6>
+                            <ul class="list-unstyled small">
+                                <li class="mb-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Zone portuaire</li>
+                                <li class="mb-2"><i class="fa fa-phone-alt text-primary me-2"></i>+228 90 47 67 17</li>
+                                {{-- <li><i class="fa fa-envelope text-primary me-2"></i>contact@africaconsultingleaders.com</li> --}}
+                            </ul>
+                        </div>
+                
+                        <!-- Contact Bénin -->
+                        <div class="col-md-6 mb-4">
+                            <h6 class="fw-bold">📍 ACL Bénin</h6>
+                            <ul class="list-unstyled small">
+                                <li class="mb-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Cotonou, Aibatin 1</li>
+                                <li class="mb-2"><i class="fa fa-phone-alt text-primary me-2"></i>+229 01 65 50 02 56</li> <!-- Exemple de numéro béninois -->
+                                {{-- <li><i class="fa fa-envelope text-primary me-2"></i>benin@africaconsultingleaders.com</li> --}}
+                            </ul>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Formulaire de contact -->
@@ -69,6 +86,37 @@
                         </div>
                     </form>
                 </div>
+
+
+                <!-- Présentation vidéo des bureaux -->
+                <div class="container-xxl py-5">
+                    <div class="container">
+                        <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                            <h2 class="fw-bold">Découvrez nos bureaux</h2>
+                            <p class="text-muted">Un aperçu de nos espaces de travail à Cotonou et Lomé</p>
+                        </div>
+                        <div class="row g-4">
+                            <!-- ACL Bénin -->
+                            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                                <div class="ratio ratio-16x9 rounded shadow">
+                                    <iframe src="https://www.youtube.com/embed/GZplf_Ri18do" title="ACL Bénin" frameborder="0"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <h5 class="mt-3 text-center">📍 Bureau ACL – Bénin (Cotonou)</h5>
+                            </div>
+                
+                            <!-- ACL Togo -->
+                            <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+                                <div class="ratio ratio-16x9 rounded shadow">
+                                    <iframe src="https://www.youtube.com/embed/GZplf_Ri18od" title="ACL Togo" frameborder="0"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <h5 class="mt-3 text-center">📍 Bureau ACL – Togo (Zone portuaire)</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 
                 <!-- Carte Google Maps -->
                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s" style="min-height: 450px;">

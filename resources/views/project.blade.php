@@ -1,4 +1,145 @@
 <x-layouts.app>
+    <style>
+        .swiper-wrapper-container {
+    position: relative;
+}
+        .custom-swiper-nav {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            transform: translateY(-50%);
+            z-index: 10;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 15px;
+        }
+
+        .custom-prev,
+        .custom-next {
+            background-color: #0f4229;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 42px;
+            height: 42px;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s;
+            opacity: 0;
+        }
+
+            .swiper-wrapper-container:hover .custom-prev {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+
+    .swiper-wrapper-container:hover .custom-next {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    </style>
+    @php
+        $formations = collect([
+            (object)[
+                'titre' => 'Sécurité et Sûreté Portuaire',
+                'date' => '28 Janvier au 1er Février 2019',
+                'lieu' => 'Lomé',
+                'participants' => 12,
+                'description' => "Formation sur la sécurité et la sûreté des installations portuaires.",
+                'images' => [
+                    '/img/formations/sec/sec2.JPG',
+                    '/img/formations/sec/sec7.JPG',
+                    '/img/formations/sec/sec3.JPG',
+                    '/img/formations/sec/sec6.JPG',
+                    '/img/formations/sec/sec5.JPG',
+                    '/img/formations/sec/sec1.JPG',
+                    '/img/formations/sec/sec8.JPG',
+                    '/img/formations/sec/sec9.JPG',
+                    '/img/formations/sec/sec4.JPG',
+                ],
+            ],
+            (object)[
+                'titre' => 'Doper votre système d’information portuaire',
+                'date' => '29 Avril au 03 Mai 2019',
+                'lieu' => 'Lomé',
+                'participants' => 23,
+                'description' => "Optimisation et digitalisation des systèmes d'information portuaire.",
+                'images' => [
+                    '/img/formations/dop/dop5.JPG',
+                    '/img/formations/dop/dop2.JPG',
+                    '/img/formations/dop/dop1.JPG',
+                    '/img/formations/dop/dop3.JPG',
+                    '/img/formations/dop/dop4.JPG',
+                ],
+            ],
+            (object)[
+                'titre' => 'Hygiène, Sécurité, Qualité et Environnement (HSQE)',
+                'date' => '03 au 07 Juin 2019',
+                'lieu' => 'Lomé',
+                'participants' => 17,
+                'description' => "Formation sur la gestion des risques et la conformité aux normes HSQE.",
+                'images' => [
+                    '/img/formations/sec/sec7.JPG',
+                    '/img/formations/sec/sec2.JPG',
+                    '/img/formations/sec/sec3.JPG',
+                    '/img/formations/sec/sec6.JPG',
+                    '/img/formations/sec/sec5.JPG',
+                    '/img/formations/sec/sec1.JPG',
+                    '/img/formations/sec/sec8.JPG',
+                    '/img/formations/sec/sec9.JPG',
+                    '/img/formations/sec/sec4.JPG',
+                ],
+            ],
+            (object)[
+                'titre' => 'Collecte des données sur les Terminaux à Conteneurs',
+                'date' => '08 au 12 Novembre 2021',
+                'lieu' => 'Lomé',
+                'participants' => 2,
+                'description' => "Exploitation optimale du Digital Port et sécurisation des recettes.",
+                'images' => [
+                    '/img/formations/dop/dop1.JPG',
+                    '/img/formations/dop/dop2.JPG',
+                    '/img/formations/dop/dop3.JPG',
+                    '/img/formations/dop/dop4.JPG',
+                    '/img/formations/dop/dop5.JPG',
+                ],
+            ],
+            (object)[
+                'titre' => 'Guichet Unique Maritime',
+                'date' => '10 au 14 Juin 2024',
+                'lieu' => 'Lomé',
+                'participants' => 13,
+                'description' => "Préparation des ports à la décarbonation avec un cadre fonctionnel et technique.",
+                'images' => [
+                    '/img/formations/dop/dop1.JPG',
+                    '/img/formations/dop/dop2.JPG',
+                    '/img/formations/dop/dop3.JPG',
+                    '/img/formations/dop/dop4.JPG',
+                    '/img/formations/dop/dop5.JPG',
+                ],
+            ],
+            (object)[
+                'titre' => 'Guichet Unique Maritime',
+                'date' => '10 au 14 Juin 2024',
+                'lieu' => 'Lomé',
+                'participants' => 13,
+                'description' => "Préparation des ports à la décarbonation avec un cadre fonctionnel et technique.",
+                'images' => [
+                    '/img/formations/dop/dop1.JPG',
+                    '/img/formations/dop/dop2.JPG',
+                    '/img/formations/dop/dop3.JPG',
+                    '/img/formations/dop/dop4.JPG',
+                    '/img/formations/dop/dop5.JPG',
+                ],
+            ],
+        ]);
+@endphp
+
+
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center py-5">
@@ -44,12 +185,12 @@
     </style>
 
  <!-- Projects Start -->
- <div class="container-xxl py-5">
+<div class="container-xxl py-5">
     <div class="container">
         <div class="text-center mx-auto" style="max-width: 500px;">
             <h1 class="display-5 mb-5">Nos Projets Récents</h1>
         </div>
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-12 text-center">
                 <ul class="list-inline rounded mb-5" id="portfolio-flters">
                     <li class="mx-2 active" data-filter="*">Tout</li>
@@ -57,7 +198,7 @@
                     <li class="mx-2" data-filter=".second">Projets En Cours</li>
                 </ul>
             </div>
-        </div>
+        </div> --}}
         <div class="row g-4 portfolio-container">
             <!-- Projet GUFORD -->
             <div class="col-lg-4 col-md-6 portfolio-item first">
@@ -121,7 +262,57 @@
             
         </div>
     </div>
+
+    <!-- Titre de la section CFP/ACL -->
+    <div class="container-xxl py-5">
+        <div class="container text-center mx-auto" style="max-width: 800px;">
+            <h4 class="display-3 fw-bold" style="opacity: 0">Formations & Activités CFP</h4>
+        </div>
+    </div>
+
+    <!-- Grille de formations -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                @foreach($formations as $formation)
+                    <div class="col-lg-6">
+                        <div class="p-4 border rounded h-100">
+                            <h4 class="mb-3">{{ $formation->titre }}</h4>
+                            <p class="text-muted mb-2">
+                                📅 <strong>Date :</strong> {{ $formation->date }}<br>
+                                📍 <strong>Lieu :</strong> {{ $formation->lieu }}<br>
+                                👥 <strong>Participants :</strong> {{ $formation->participants }}
+                            </p>
+                            <p>{{ $formation->description }}</p>
+
+                            <div class="position-relative swiper-wrapper-container">
+                                <div class="swiper mySwiper{{ $loop->index }}">
+                                    <div class="swiper-wrapper">
+                                        @foreach($formation->images as $image)
+                                            <div class="swiper-slide">
+                                                <img src="{{ $image }}" class="img-fluid rounded" alt="Photo formation">
+                                            </div>
+                                        @endforeach
+                                    </div>
+                                </div>
+                            
+                                <!-- Navigation custom -->
+                                <div class="custom-swiper-nav">
+                                    <button class="custom-prev custom-prev-{{ $loop->index }}"><i class="fas fa-chevron-left"></i></button>
+                                    <button class="custom-next custom-next-{{ $loop->index }}"><i class="fas fa-chevron-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </div>
+        
 </div>
+
+
+
 <!-- Projects End -->
 
 <!-- Modale pour afficher la vidéo -->
@@ -169,6 +360,23 @@
             videoElement.currentTime = 0; // Remet la vidéo au début
         });
     });
+</script>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".swiper").forEach((swiperEl, index) => {
+        new Swiper(swiperEl, {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+            navigation: {
+                nextEl: `.custom-next-${index}`,
+                prevEl: `.custom-prev-${index}`,
+            }
+        });
+    });
+});
 </script>
 
 </x-layouts.app>

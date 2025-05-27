@@ -9,13 +9,13 @@
                     <div class="mb-3">
                         <h6 class="text-white fw-bold mb-2">ACL Togo</h6>
                         <p class="mb-1"><i class="fa fa-map-marker-alt me-2"></i>Zone portuaire, Lomé</p>
-                        <p class="mb-0"><i class="fa fa-phone-alt me-2"></i>+228 90 04 54 94</p>
+                        <p class="mb-0"><i class="fa fa-phone-alt me-2"></i>+228 90 47 67 17</p>
                     </div>
 
                     <div>
                         <h6 class="text-white fw-bold mb-2">ACL Bénin</h6>
-                        <p class="mb-1"><i class="fa fa-map-marker-alt me-2"></i>Cotonou, Aibatin 1</p>
-                        <p class="mb-0"><i class="fa fa-phone-alt me-2"></i>+229 XX XX XX XX</p> <!-- Ajoute le bon numéro ici -->
+                        <p class="mb-1"><i class="fa fa-map-marker-alt me-2"></i>Zone portuaire, Cotonou</p>
+                        <p class="mb-0"><i class="fa fa-phone-alt me-2"></i>+229 01 65 50 02 56</p> <!-- Ajoute le bon numéro ici -->
                     </div>
 
                     <div class="d-flex pt-3">
@@ -28,9 +28,9 @@
 
                 <div class="col-lg-2 col-md-6">
                     <h4 class="text-white mb-4">À PROPOS</h4>
-                    <a class="btn btn-link" href="#">Nos Équipes</a>
-                    <a class="btn btn-link" href="#">Nos Services</a>
-                    <a class="btn btn-link" href="#">Nos Projets</a>
+                    {{-- <a class="btn btn-link" href="#">Nos Équipes</a> --}}
+                    <a class="btn btn-link" href="/service">Nos Services</a>
+                    <a class="btn btn-link" href="/project">Nos Projets</a>
                 </div>
 
                 <div class="col-lg-2 col-md-6">

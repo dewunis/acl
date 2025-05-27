@@ -135,7 +135,7 @@
                 <div class="col-lg-5 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
                     <h1 class="display-1 text-primary mb-0">+40</h1>
                     <h4 class="text-primary mb-4 border-bottom d-inline-block">Années d'Expériences</h4>
-                    <h2 class="display-8 mb-4">NOUS CUMULONS PLUS DE 30 ANS D'EXPÉRIENCES</h2>
+                    <h2 class="display-8 mb-4">NOUS CUMULONS PLUS DE 40 ANS D'EXPÉRIENCES</h2>
                     <p class="mb-4">Africa Consulting Leaders (ACL) fournit aux ports et aux acteurs de la chaine
                         logistique de transport des solutions digitales des platefomes métiers en environnement web
                         associés à des outils FINTEC pour des services de paiement en ligne via des canaux de banque et
@@ -332,7 +332,7 @@
         <div class="text-center mx-auto" style="max-width: 500px;">
             <h1 class="display-5 mb-5">Nos Projets</h1>
         </div>
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-12 text-center">
                 <ul class="list-inline rounded mb-5" id="portfolio-flters">
                     <li class="mx-2 active" data-filter="*">Tout</li>
@@ -340,7 +340,7 @@
                     <li class="mx-2" data-filter=".second">Projets En Cours</li>
                 </ul>
             </div>
-        </div>
+        </div> --}}
         <div class="row g-4 portfolio-container">
             <!-- Projet GUFORD -->
             <div class="col-lg-4 col-md-6 portfolio-item first">
