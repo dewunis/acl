@@ -109,7 +109,7 @@
                 ],
             ],
             (object)[
-                'titre' => 'Guichet Unique Maritime',
+                'titre' => 'Formation CFP',
                 'date' => '10 au 14 Juin 2024',
                 'lieu' => 'Lomé',
                 'participants' => 13,

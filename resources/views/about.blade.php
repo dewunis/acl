@@ -25,7 +25,7 @@
                 <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
                     <h1 class="display-1 text-primary mb-0">+40</h1>
                     <h4 class="text-primary mb-4 border-bottom d-inline-block">Année d'Expérience</h4>
-                    <h2 class="display-8 mb-4">NOUS CUMULONS PLUS DE 30 ANS D'EXPÉRIENCE</h2>
+                    <h2 class="display-8 mb-4">NOUS CUMULONS PLUS DE 40 ANS D'EXPÉRIENCE</h2>
                     <p class="mb-4">Africa Consulting Leaders (ACL) fournit aux ports et aux acteurs de la chaine logistique de transport des solutions digitales des platefomes métiers en environnement web associés à des outils FINTEC pour des services de paiement en ligne via des canaux de banque et mobile money.</p>
                     <a class="btn btn-primary py-3 px-4" href="">Nos Projets</a>
                 </div>
@@ -116,5 +116,48 @@
             </div>
         </div>
         <!-- Testimonial End -->
+
+        <!-- Section Vidéos -->
+        <section id="videos" class="py-5 bg-light" style="padding: 60px 0; background-color: #f8f9fa;">
+            <div class="container" style="max-width: 1140px; margin: 0 auto;">
+                <h2 class="section-title mb-4" style="text-align: center;">
+                Bienvenue dans les bureaux de ACL
+                </h2>
+                <div class="row justify-content-center" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+                
+                    <!-- Bureau TOGO -->
+                    <div class="col-12 col-md-6 mb-4 d-flex align-items-stretch" style="flex: 0 0 100%; max-width: 100%; display: flex; align-items: stretch;">
+                        <div class="card" style="border: none; background-color: #fff; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); border-radius: 10px; width: 100%; transition: transform 0.3s ease;">
+                            <div class="office-video" style="padding: 20px;">
+                                <video controls poster="poster-image-togo.jpg" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+                                <source src="video-bureau-togo.mp4" type="video/mp4">
+                                Votre navigateur ne supporte pas la lecture vidéo.
+                                </video>
+                            </div>
+                            <div class="card-body" style="text-align: center; padding-bottom: 20px;">
+                                <h5 class="card-title">BUREAU ACL – TOGO</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bureau BENIN -->
+                    <div class="col-12 col-md-6 mb-4 d-flex align-items-stretch" style="flex: 0 0 100%; max-width: 100%; display: flex; align-items: stretch;">
+                        <div class="card" style="border: none; background-color: #fff; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); border-radius: 10px; width: 100%; transition: transform 0.3s ease;">
+                            <div class="office-video" style="padding: 20px;">
+                                <video controls poster="poster-image-benin.jpg" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+                                <source src="video-bureau-benin.mp4" type="video/mp4">
+                                Votre navigateur ne supporte pas la lecture vidéo.
+                                </video>
+                            </div>
+                            <div class="card-body" style="text-align: center; padding-bottom: 20px;">
+                                <h5 class="card-title">BUREAU ACL – BÉNIN</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
 
 </x-layouts.app>

@@ -109,10 +109,10 @@
                             </button>
                 
                             <!-- Postuler via LinkedIn (visible) -->
-                            <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ urlencode(url()->current()) }}&title={{ urlencode($job->title) }}" 
+                            <!-- <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ urlencode(url()->current()) }}&title={{ urlencode($job->title) }}" 
                                target="_blank" class="btn btn-outline-secondary btn-sm">
                                 🔗 LinkedIn
-                            </a>
+                            </a> --> 
                         </div>
                     </div>
                 </div>
