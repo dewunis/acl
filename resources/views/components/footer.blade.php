@@ -35,8 +35,8 @@
 
                 <div class="col-lg-2 col-md-6">
                     <h4 class="text-white mb-4">SUPPORT</h4>
-                    <a class="btn btn-link" href="#">Vidéothèque</a>
-                    <a class="btn btn-link" href="#">Photothèque</a>
+                    <a class="btn btn-link" href="/videotheque">Vidéothèque</a>
+                    <a class="btn btn-link" href="/phototheque">Photothèque</a>
                 </div>
 
                 <div class="col-lg-2 col-md-6">

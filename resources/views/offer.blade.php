@@ -23,53 +23,63 @@
                     'title' => 'Chargé de Communication',
                     'location' => 'Lomé, Togo',
                     'created_at' => now()->subDays(1),
+                    'description' => "Vous serez responsable de la communication interne et externe, de la gestion des réseaux sociaux, de l'organisation d'événements et des relations presse.",
                 ],
                 (object)[
                     'title' => 'Assistant Administratif',
                     'location' => 'Cotonou, Bénin',
                     'created_at' => now()->subDays(3),
+                    'description' => "Nous recherchons un assistant administratif pour gérer les tâches administratives quotidiennes, la planification des réunions et le support aux équipes.",
                 ],
                 (object)[
                     'title' => 'Développeur Web Full Stack',
                     'location' => 'Remote',
                     'created_at' => now()->subWeek(),
+                    'description' => "Vous serez en charge du développement et de la maintenance de nos applications web, en utilisant les dernières technologies front-end et back-end.",
                 ],
                 (object)[
                     'title' => 'Responsable RH',
                     'location' => 'Lomé, Togo',
                     'created_at' => now()->subDays(2),
+                    'description' => "Nous recherchons un responsable RH pour gérer le recrutement, la formation et le développement des employés, ainsi que les relations avec les syndicats.",
                 ],
                 (object)[
                     'title' => 'UX/UI Designer',
                     'location' => 'Cotonou, Bénin',
                     'created_at' => now()->subDays(5),
+                    'description' => "Vous serez responsable de la conception d'interfaces utilisateur intuitives et attrayantes, en collaborant étroitement avec les développeurs et les chefs de produit.",
                 ],
                 (object)[
                     'title' => 'Comptable Senior',
                     'location' => 'Lomé, Togo',
                     'created_at' => now()->subDays(6),
+                    'description' => "Nous recherchons un comptable senior pour superviser les opérations comptables, préparer les états financiers et assurer la conformité fiscale.",
                 ],
                 (object)[
                     'title' => 'Chef de Projet Digital',
                     'location' => 'Remote',
                     'created_at' => now()->subDays(4),
+                    'description' => "Vous serez en charge de la gestion de projets digitaux, de la planification à l'exécution, en veillant à respecter les délais et le budget.",
                 ],
                 (object)[
                     'title' => 'Community Manager',
                     'location' => 'Cotonou, Bénin',
                     'created_at' => now()->subDays(2),
+                    'description' => "Nous recherchons un community manager pour gérer notre présence en ligne, interagir avec notre communauté et créer du contenu engageant.",
                 ],
                 (object)[
                     'title' => 'Assistant Logistique',
                     'location' => 'Lomé, Togo',
                     'created_at' => now()->subDays(7),
+                    'description' => "Vous serez responsable de la gestion des opérations logistiques, y compris la planification des transports, la gestion des stocks et la coordination avec les fournisseurs.",
                 ],
                 (object)[
                     'title' => 'Consultant en Stratégie',
                     'location' => 'Remote',
                     'created_at' => now()->subDays(1),
-    ],
-]);
+                    'description' => "Nous recherchons un consultant en stratégie pour aider nos clients à développer des plans d'affaires efficaces, à optimiser leurs opérations et à atteindre leurs objectifs de croissance.",
+                    ],
+            ]);
 
             // Filtrage simple
             $search = request('search');
@@ -99,7 +109,17 @@
                 <div class="card mb-3">
                     <div class="card-body d-flex justify-content-between align-items-center flex-wrap gap-2">
                         <div>
-                            <h5 class="card-title mb-1">{{ $job->title }}</h5>
+                            <h5 class="card-title mb-1">
+                                <a href="#" class="job-title-link"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#jobDescriptionModal"
+                                    data-title="{{ $job->title }}"
+                                    data-location="{{ $job->location }}"
+                                    data-date="{{ $job->created_at->format('d M Y') }}"
+                                    data-description="{{ $job->description }}">
+                                    {{ $job->title }}
+                                </a>
+                            </h5>
                             <small class="text-muted">📍 {{ $job->location }} – 🗓️ Publié le {{ $job->created_at->format('d M Y') }}</small>
                         </div>
                         <div class="d-flex gap-2">
@@ -178,5 +198,41 @@
             document.getElementById('jobTitleInput').value = jobTitle;
         });
     </script>
+
+    <!-- Modal Description du poste -->
+    <div class="modal fade" id="jobDescriptionModal" tabindex="-1" aria-labelledby="jobDescriptionModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        
+        <div class="modal-header">
+            <h5 class="modal-title" id="jobDescriptionModalLabel">Titre du poste</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+        </div>
+
+        <div class="modal-body">
+            <p id="jobDescriptionText"></p>
+            <ul class="list-unstyled">
+            <li>📍 <strong>Lieu :</strong> <span id="jobLocationText"></span></li>
+            <li>🗓️ <strong>Publié le :</strong> <span id="jobDateText"></span></li>
+            </ul>
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+    <!-- JS pour injecter les détails du poste dans la modal -->
+    <script>
+        const jobDescriptionModal = document.getElementById('jobDescriptionModal');
+        jobDescriptionModal.addEventListener('show.bs.modal', function (event) {
+            const trigger = event.relatedTarget;
+
+            document.getElementById('jobDescriptionModalLabel').textContent = trigger.getAttribute('data-title');
+            document.getElementById('jobDescriptionText').textContent = trigger.getAttribute('data-description');
+            document.getElementById('jobLocationText').textContent = trigger.getAttribute('data-location');
+            document.getElementById('jobDateText').textContent = trigger.getAttribute('data-date');
+        });
+    </script>
+
 
 </x-layouts.app>

@@ -45,3 +45,11 @@ Route::get('/team', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/videotheque', function () {
+    return view('videotheque');
+});
+
+Route::get('/phototheque', function () {
+    return view('phototheque');
+});
