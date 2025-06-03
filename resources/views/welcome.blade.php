@@ -190,7 +190,7 @@
             
             <!-- Logo ACL (bas centre) -->
             <div class="logo-wrapper acl">
-                <img src="img/icon/logo-ACL.png" alt="ACL" class="logo">
+                <img src="img/logo/logo.png" alt="ACL" class="logo">
             </div>
             
             <!-- Lignes de connexion -->

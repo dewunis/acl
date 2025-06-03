@@ -37,7 +37,7 @@
                 </p>
 
                 <!-- Galerie avec mini-photos cliquables -->
-                <div class="article-gallery" style="display: flex; gap: 10px; flex-wrap: wrap; margin: 20px 0;">
+                <!-- <div class="article-gallery" style="display: flex; gap: 10px; flex-wrap: wrap; margin: 20px 0;">
                     <a href="/img/actus/actus10.jpg" class="glightbox" data-gallery="article-photos" data-title="Vue générale du Port Autonome de Lomé">
                         <img src="/img/actus/actus10.jpg" alt="Vue générale" style="width: 120px; border-radius: 6px; cursor: pointer;">
                     </a>
@@ -47,7 +47,7 @@
                     <a href="/img/actus/actus9.jpg" class="glightbox" data-gallery="article-photos" data-title="Terminal et barrière numérique">
                         <img src="/img/actus/actus9.jpg" alt="Terminal numérique" style="width: 120px; border-radius: 6px; cursor: pointer;">
                     </a>
-                </div>
+                </div> -->
 
                 <h2>OSIPAYE, la tour de contrôle des paiements portuaires</h2>
                 <p>
@@ -59,6 +59,19 @@
                     <li><strong>Sécurité & traçabilité</strong> : chaque transaction est chiffrée, horodatée et insérée dans un journal consultable par les usagers et les services du PAL, réduisant drastiquement la fraude et les files d’attente.</li>
                 </ul>
 
+                <!-- Galerie avec mini-photos cliquables -->
+                <div class="article-gallery" style="display: flex; gap: 10px; flex-wrap: wrap; margin: 20px 0;">
+                    <a href="/img/actus/actus10.jpg" class="glightbox" data-gallery="article-photos" data-title="Vue générale du Port Autonome de Lomé">
+                        <img src="/img/actus/actus10.jpg" alt="Vue générale" style="width: 120px; border-radius: 6px; cursor: pointer;">
+                    </a>
+                    <!-- <a href="/img/actus/actus11.jpg" class="glightbox" data-gallery="article-photos" data-title="Interface OSIPAYE mobile">
+                        <img src="/img/actus/actus11.jpg" alt="OSIPAYE mobile" style="width: 120px; border-radius: 6px; cursor: pointer;">
+                    </a>
+                    <a href="/img/actus/actus9.jpg" class="glightbox" data-gallery="article-photos" data-title="Terminal et barrière numérique">
+                        <img src="/img/actus/actus9.jpg" alt="Terminal numérique" style="width: 120px; border-radius: 6px; cursor: pointer;">
+                    </a> -->
+                </div>
+
                 <h2>ACL : trois décennies de solutions portuaires made in Lomé</h2>
                 <p>
                     Fondé il y a près de 30 ans et dirigé par Philippe Bocco, ACL déploie un portefeuille complet de produits : Système d’Information Portuaire Étendu (SIPE), renforcement de capacités métiers, et aujourd’hui OSIPAYE, sa brique fintech.
@@ -66,6 +79,19 @@
                 <p>
                     Le cabinet n’en est pas à son coup d’essai : dès mars 2021, il pilotait déjà la facturation électronique interne du PAL, posant la première pierre de l’actuelle “route sans papier” voulue par les autorités portuaires.
                 </p>
+
+                <!-- Galerie avec mini-photos cliquables -->
+                <div class="article-gallery" style="display: flex; gap: 10px; flex-wrap: wrap; margin: 20px 0;">
+                    <!-- <a href="/img/actus/actus10.jpg" class="glightbox" data-gallery="article-photos" data-title="Vue générale du Port Autonome de Lomé">
+                        <img src="/img/actus/actus10.jpg" alt="Vue générale" style="width: 120px; border-radius: 6px; cursor: pointer;">
+                    </a> -->
+                    <a href="/img/actus/actus11.jpg" class="glightbox" data-gallery="article-photos" data-title="Interface OSIPAYE mobile">
+                        <img src="/img/actus/actus11.jpg" alt="OSIPAYE mobile" style="width: 120px; border-radius: 6px; cursor: pointer;">
+                    </a>
+                    <!-- <a href="/img/actus/actus9.jpg" class="glightbox" data-gallery="article-photos" data-title="Terminal et barrière numérique">
+                        <img src="/img/actus/actus9.jpg" alt="Terminal numérique" style="width: 120px; border-radius: 6px; cursor: pointer;">
+                    </a> -->
+                </div>
 
                 <h2>Une étape-clé pour la vision “Port 4.0” du Togo</h2>
                 <blockquote>
@@ -82,6 +108,19 @@
                 <p>
                     Résultat : une économie estimée de 600 000 heures/homme par an et une réduction des coûts opérationnels de plus de 20 %, selon les projections internes d’ACL.
                 </p>
+
+                <!-- Galerie avec mini-photos cliquables -->
+                <div class="article-gallery" style="display: flex; gap: 10px; flex-wrap: wrap; margin: 20px 0;">
+                    <!-- <a href="/img/actus/actus10.jpg" class="glightbox" data-gallery="article-photos" data-title="Vue générale du Port Autonome de Lomé">
+                        <img src="/img/actus/actus10.jpg" alt="Vue générale" style="width: 120px; border-radius: 6px; cursor: pointer;">
+                    </a>
+                    <a href="/img/actus/actus11.jpg" class="glightbox" data-gallery="article-photos" data-title="Interface OSIPAYE mobile">
+                        <img src="/img/actus/actus11.jpg" alt="OSIPAYE mobile" style="width: 120px; border-radius: 6px; cursor: pointer;">
+                    </a> -->
+                    <a href="/img/actus/actus9.jpg" class="glightbox" data-gallery="article-photos" data-title="Terminal et barrière numérique">
+                        <img src="/img/actus/actus9.jpg" alt="Terminal numérique" style="width: 120px; border-radius: 6px; cursor: pointer;">
+                    </a>
+                </div>
 
                 <h2>Prochaines étapes : cap sur l’intégration régionale</h2>
                 <p>
@@ -104,10 +143,10 @@
             <div class="share-article">
                 <h3 class="share-title">Partager cet article</h3>
                 <div class="share-buttons">
-                    <a href="#" class="share-button facebook">f</a>
-                    <a href="#" class="share-button twitter">t</a>
-                    <a href="#" class="share-button linkedin">in</a>
-                    <a href="#" class="share-button whatsapp">wa</a>
+                    <a href="https://www.facebook.com/" class="share-button facebook rounded-circle me-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/" class="share-button twitter rounded-circle me-2"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/" class="share-button linkedin rounded-circle me-2"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="share-button whatsapp"><i class="fab fa-whatsapp rounded-circle me-2"></i></a>
                 </div>
             </div>
 
