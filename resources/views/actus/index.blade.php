@@ -110,6 +110,21 @@
                     <a href="/actus/1" class="read-more">Lire la suite →</a>
                 </div>
             </article>
+
+            <!-- Article 7 -->
+            <article class="article-card">
+                <!-- <div class="article-image" style="background-image: url('https://via.placeholder.com/600x400')"></div> -->
+                <div class="article-image">
+                    <img class="img-fluid" src="/img/actus/actus8.jpg" alt="Accompagnement"
+                    style="object-fit: cover; width: 400px; height: 200px;">
+                </div>
+                <div class="article-content">
+                    <div class="article-date">21 Mai 2025</div>
+                    <h3 class="article-title">Digitalisation du paiement de tickets d’entrée aux PVO et d’accès des camions aux différentes entrées du port</h3>
+                    <p class="article-excerpt">ACL fait entrer le Port autonome de Lomé dans l’ère du “cashless” grâce à OSIPAYE. les grilles du Port autonome de Lomé (PAL) se sont ouvertes sur une révolution discrète.</p>
+                    <a href="/actus/2" class="read-more">Lire la suite →</a>
+                </div>
+            </article>
         </div>
     </main>
 
