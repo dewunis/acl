@@ -41,13 +41,13 @@
             <article class="article-card">
                 <!-- <div class="article-image" style="background-image: url('https://via.placeholder.com/600x400')"></div> -->
                 <div class="article-image">
-                    <img class="img-fluid" src="/img/actus/actus8.jpg" alt="Accompagnement"
+                    <img class="img-fluid" src="/img/actus/actus14.jpg" alt="Accompagnement"
                     style="object-fit: cover; width: 400px; height: 200px;">
                 </div>
                 <div class="article-content">
-                    <div class="article-date">1er Mai 2025</div>
-                    <h3 class="article-title">Célébration du 1er Mai 2025 à Aného – Africa Consulting Leaders</h3>
-                    <p class="article-excerpt">Le 1er mai 2025, Africa Consulting Leaders a organisé une sortie conviviale à l’hôtel Régina à Aného pour célébrer la fête du travail. La journée a débuté par un match de football dynamique, favorisant l’esprit d’équipe et la camaraderie entre les collaborateurs.</p>
+                    <div class="article-date">06 Mai 2025</div>
+                    <h3 class="article-title">Président à ACL accostage aubport de lome du plus grand navire du monde 400m long et 24 000  CTN EVP</h3>
+                    <p class="article-excerpt">ACL fait entrer le Port autonome de Lomé dans l’ère du “cashless” grâce à OSIPAYE. les grilles du Port autonome de Lomé (PAL) se sont ouvertes sur une révolution discrète.</p>
                     <a href="/actus/2" class="read-more">Lire la suite →</a>
                 </div>
             </article>
@@ -56,13 +56,13 @@
             <article class="article-card">
                 <!-- <div class="article-image" style="background-image: url('https://via.placeholder.com/600x400')"></div> -->
                 <div class="article-image">
-                    <img class="img-fluid" src="/img/actus/actus8.jpg" alt="Accompagnement"
+                    <img class="img-fluid" src="/img/actus/actus13.jpg" alt="Accompagnement"
                     style="object-fit: cover; width: 400px; height: 200px;">
                 </div>
                 <div class="article-content">
-                    <div class="article-date">21 Mai 2025</div>
-                    <h3 class="article-title">Digitalisation du paiement de tickets d’entrée aux PVO et d’accès des camions aux différentes entrées du port</h3>
-                    <p class="article-excerpt">ACL fait entrer le Port autonome de Lomé dans l’ère du “cashless” grâce à OSIPAYE. les grilles du Port autonome de Lomé (PAL) se sont ouvertes sur une révolution discrète.</p>
+                    <div class="article-date">1er Mai 2025</div>
+                    <h3 class="article-title">Célébration du 1er Mai 2025 à Aného – Africa Consulting Leaders</h3>
+                    <p class="article-excerpt">Le 1er mai 2025, Africa Consulting Leaders a organisé une sortie conviviale à l’hôtel Régina à Aného pour célébrer la fête du travail. La journée a débuté par un match de football dynamique, favorisant l’esprit d’équipe et la camaraderie entre les collaborateurs.</p>
                     <a href="/actus/2" class="read-more">Lire la suite →</a>
                 </div>
             </article>
