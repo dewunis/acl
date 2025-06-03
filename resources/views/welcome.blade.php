@@ -287,7 +287,7 @@
                                     style="width: 90px; height: 90px;">
                                     <i class="fa fa-tools fa-3x text-primary"></i>
                                 </div>
-                                <h4 class="mb-0">Équipments Modernes</h4>
+                                <h4 class="mb-0">Équipements Modernes</h4>
                             </div>
                         </div>
                     </div>
